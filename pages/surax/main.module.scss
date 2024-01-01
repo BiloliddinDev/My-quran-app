@@ -1,0 +1,92 @@
+.wrapper {
+  padding: 50px 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 150px;
+
+  &__box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 5px double darkblue;
+    margin-bottom: 10px;
+  }
+
+  &__box1 {
+    position: relative;
+  }
+
+  &__number {
+    position: absolute;
+    top: 43%;
+    left: 50%;
+    transform: translate(-50%);
+    font-family: "Courier New", Courier, monospace;
+    font-weight: bold;
+    color: white;
+  }
+
+  &__translate {
+    font-size: 22px;
+    font-family: "Courier New", Courier, monospace;
+    margin: 10px 0;
+    font-weight: 500;
+  }
+
+  &__text {
+    font-size: 22px;
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    margin: 10px 0;
+    font-weight: 500;
+  }
+
+  i {
+    font-size: 30px;
+    color: darkblue;
+    &:hover {
+      transform: scale(1.08);
+      color: rgb(4, 4, 255);
+    }
+  }
+
+  &__folder {
+    display: flex;
+    gap: 50px;
+    margin: 40px 0;
+    cursor: pointer;
+  }
+}
+
+.from {
+  z-index: 100;
+  margin-bottom: 100px;
+}
+
+.box {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: whitesmoke;
+  text-align: center;
+  padding: 20px 30px;
+  z-index: 90;
+
+  &__audyo {
+    width: 100%;
+    background-color: transparent !important;
+  }
+
+  h1 {
+    font-size: 23px;
+  }
+
+  i {
+    font-size: 20px;
+    cursor: pointer;
+  }
+}

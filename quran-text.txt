@@ -1,0 +1,32 @@
+Barcha surahlar 
+
+https://api.alquran.cloud/v1/surah
+
+
+Sura oyatlari uzb tilda api 
+
+Uzb v1
+
+https://quranenc.com/api/v1/translation/sura/uzbek_mansour/2 oxrdig raqam ozgaradi
+
+Englsh v1
+
+https://quranenc.com/api/v1/translation/sura/english_rwwad/2
+
+Turkesh v1
+
+https://quranenc.com/api/v1/translation/sura/turkish_shaban/1
+
+
+
+Audyosi boycha surala barcha qorilar nomi 
+
+https://api.alquran.cloud/v1/edition/format/audio 
+
+
+Audyosi boycha detel surahlar
+
+http://api.alquran.cloud/v1/surah/1/ar.alafasy
+
+raqam bilan ohrdig joy ozgaradi  
+
